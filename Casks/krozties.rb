@@ -12,6 +12,8 @@ cask "krozties" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "Krozties.app"
 
   zap trash: [
