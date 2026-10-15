@@ -1,8 +1,8 @@
 cask "krozties" do
-  version "0.8.0"
-  sha256 "3ef767bd29ca81c5a81ddf70f7c98e0ad52e655f166df06e2c7a14bbd8206b30"
+  version "0.9.0"
+  sha256 "8fc6dce3cdff1d8b39b272259a85746d53ff50555f24292310d2a91d413a2487"
 
-  url "https://github.com/Pasouvenla/krozties/releases/download/v#{version}/Krozties_universal.dmg"
+  url "https://github.com/Pasouvenla/krozties/releases/download/v#{version}/Krozties_#{version}_universal.dmg"
   name "Krozties"
   desc "Rotation de sorts la plus forte d'un personnage de Dofus 3"
   homepage "https://github.com/Pasouvenla/krozties"
