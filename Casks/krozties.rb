@@ -1,6 +1,6 @@
 cask "krozties" do
-  version "0.9.0"
-  sha256 "8fc6dce3cdff1d8b39b272259a85746d53ff50555f24292310d2a91d413a2487"
+  version "0.10.0"
+  sha256 "3016062dde73ace82363bc1fb0f36e8ecaa7889dc2844465b6addc0421a85d0a"
 
   url "https://github.com/Pasouvenla/krozties/releases/download/v#{version}/Krozties_#{version}_universal.dmg"
   name "Krozties"
@@ -12,6 +12,7 @@ cask "krozties" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on :macos
 
   app "Krozties.app"
