@@ -1,6 +1,6 @@
 cask "krozties" do
-  version "0.14.0"
-  sha256 "5da0b0fc9321c36f03dc80b60c560466cf400d043d5e60f6482a5b9569a3669c"
+  version "0.15.0"
+  sha256 "f009e6ca4da25a507b60cc7f1d046af569b1aa047bc28ee9c5ea5626f215d2d1"
 
   url "https://github.com/Pasouvenla/krozties/releases/download/v#{version}/Krozties_#{version}_universal.dmg"
   name "Krozties"
